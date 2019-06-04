@@ -1,15 +1,13 @@
-set(CMAKE_CXX_STANDARD 11)
+cmake_minimum_required(VERSION 3.1)
+set(CMAKE_CXX_STANDARD 14)
 
 
-project(solution1)
-add_executable(solution1 1.cpp)
+add_subdirectory(leetcode)
+add_subdirectory(swordoffer)
 
-project(solution2)
-add_executable(solution2 2.cpp)
+SET(CMAKE_CXX_FLAGS '-Wreturn-type')
+#set(CMAKE_VERBOSE_MAKEFILE ON)
 
 
-project(solution3)
-add_executable(solution3 3.cpp)
+#include_directories('${CMAKE_SOURCE_DIR}')
 
-project(solution4)
-add_executable(solution4 4.cpp)
