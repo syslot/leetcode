@@ -40,3 +40,23 @@ add_executable(solution236 236.cpp)
 
 project(solution671)
 add_executable(solution671 671.cpp)
+
+project(solution17)
+add_executable(solution17 17.cpp)
+
+project(solution18)
+add_executable(solution18 18.cpp)
+
+project(solution19)
+add_executable(solution19 19.cpp)
+
+project(solution20)
+add_executable(solution20 20.cpp)
+
+
+project(solution21)
+add_executable(solution21 21.cpp)
+
+
+project(solution22)
+add_executable(solution22 22.cpp)
