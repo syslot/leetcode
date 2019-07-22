@@ -36,3 +36,16 @@ struct TreeNode {
 			val(x), left(NULL), right(NULL) {
 	}
 };
+
+ListNode * GenList(vector<int> array){
+
+    ListNode * head = new ListNode(0), *cur = head;
+    for(auto x:array){
+        cur->next = new ListNode(x);
+        cur = cur->next;
+    }
+
+    cur = head->next;
+    delete head;
+    return cur;
+}
