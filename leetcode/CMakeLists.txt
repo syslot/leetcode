@@ -76,3 +76,6 @@ add_executable(solution27 27.cpp)
 
 project(solution28)
 add_executable(solution28 28.cpp)
+
+project(solution29)
+add_executable(solution29 29.cpp)
