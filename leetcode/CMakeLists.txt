@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.1)
 set(CMAKE_CXX_STANDARD 14)
 
-
 project(solution1)
 add_executable(solution1 1.cpp)
 
@@ -85,3 +84,15 @@ add_executable(solution30 30.cpp)
 
 project(soluation31)
 add_executable(solution31 31.cpp)
+
+project(soluation32)
+add_executable(solution32 32.cpp)
+
+project(soluation33)
+add_executable(solution33 33.cpp)
+
+project(soluation34)
+add_executable(solution34 34.cpp)
+
+project(soluation35)
+add_executable(solution35 35.cpp)
