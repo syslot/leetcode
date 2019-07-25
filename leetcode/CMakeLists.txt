@@ -82,17 +82,20 @@ add_executable(solution29 29.cpp)
 project(solution30)
 add_executable(solution30 30.cpp)
 
-project(soluation31)
+project(solution31)
 add_executable(solution31 31.cpp)
 
-project(soluation32)
+project(solution32)
 add_executable(solution32 32.cpp)
 
-project(soluation33)
+project(solution33)
 add_executable(solution33 33.cpp)
 
-project(soluation34)
+project(solution34)
 add_executable(solution34 34.cpp)
 
-project(soluation35)
+project(solution35)
 add_executable(solution35 35.cpp)
+
+project(solution36)
+add_executable(solution36 36.cpp)
