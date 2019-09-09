@@ -7,7 +7,7 @@ add_subdirectory(swordoffer)
 
 INCLUDE_DIRECTORIES(./)
 
-SET(CMAKE_CXX_FLAGS '-Wreturn-type')
+SET(CMAKE_CXX_FLAGS '-Wreturn-type' -fsanitize=[address leak thread memory])
 #set(CMAKE_VERBOSE_MAKEFILE ON)
 
 

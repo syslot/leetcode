@@ -14,6 +14,7 @@
 #include <functional>
 #include <tuple>
 #include <algorithm>
+#include <stdexcept>
 
 
 using namespace std;
