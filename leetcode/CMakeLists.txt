@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.1)
 set(CMAKE_CXX_STANDARD 14)
 
 project(solution1)
-add_executable(solution1 1.cpp)
+add_executable(solution1 1.cpp 46.cpp 47.cpp 48.cpp 49.cpp 50.cpp 66.cpp 53.cpp 54.cpp 55.cpp 56.cpp)
 
 project(solution2)
 add_executable(solution2 2.cpp)
@@ -105,3 +105,43 @@ add_executable(solution38 38.cpp)
 
 project(solution42)
 add_executable(solution42 42.cpp)
+
+project(solution43)
+add_executable(solution43 43.cpp)
+
+project(solution44)
+add_executable(solution44 44.cpp)
+
+project(solution45)
+add_executable(solution45 45.cpp)
+
+project(solution46)
+add_executable(solution46 46.cpp)
+
+project(solution47)
+add_executable(solution47 47.cpp)
+
+project(solution48)
+add_executable(solution48 48.cpp)
+
+project(solution49)
+add_executable(solution49 49.cpp)
+
+project(solution50)
+add_executable(solution50 50.cpp)
+
+project(solution53)
+add_executable(solution53 53.cpp)
+
+project(solution54)
+add_executable(solution54 54.cpp)
+
+project(solution55)
+add_executable(solution55 55.cpp)
+
+project(solution56)
+add_executable(solution56 56.cpp)
+
+project(solution66)
+add_executable(solution66 66.cpp)
+
