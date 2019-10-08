@@ -4,6 +4,8 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_subdirectory(leetcode)
 add_subdirectory(swordoffer)
+add_subdirectory(nowcoder)
+add_subdirectory(nc_real)
 
 INCLUDE_DIRECTORIES(./)
 

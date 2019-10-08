@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.1)
 set(CMAKE_CXX_STANDARD 14)
 
 project(solution1)
-add_executable(solution1 1.cpp 46.cpp 47.cpp 48.cpp 49.cpp 50.cpp 66.cpp 53.cpp 54.cpp 55.cpp 56.cpp)
+add_executable(solution1 1.cpp)
 
 project(solution2)
 add_executable(solution2 2.cpp)
@@ -130,6 +130,9 @@ add_executable(solution49 49.cpp)
 project(solution50)
 add_executable(solution50 50.cpp)
 
+project(solution51)
+add_executable(solution51 51.cpp)
+
 project(solution53)
 add_executable(solution53 53.cpp)
 
@@ -142,6 +145,63 @@ add_executable(solution55 55.cpp)
 project(solution56)
 add_executable(solution56 56.cpp)
 
+project(solution59)
+add_executable(solution59 59.cpp)
+
+project(solution60)
+add_executable(solution60 60.cpp)
+
+project(solution61)
+add_executable(solution61 61.cpp)
+
 project(solution66)
 add_executable(solution66 66.cpp)
 
+project(solution75)
+add_executable(solution75 75.cpp)
+
+project(solution124)
+add_executable(solution124 124.cpp)
+
+project(solution138)
+add_executable(solution138 138.cpp)
+
+project(solution142)
+add_executable(solution142 142.cpp)
+
+project(solution146)
+add_executable(solution146 146.cpp)
+
+project(solution147)
+add_executable(solution147 147.cpp)
+
+project(solution148)
+add_executable(solution148 148.cpp)
+
+project(solution149)
+add_executable(solution149 149.cpp)
+
+project(solution179)
+add_executable(solution179 179.cpp)
+
+project(solution200)
+add_executable(solution200 200.cpp)
+
+project(solution215)
+add_executable(solution215 215.cpp)
+
+project(solution230)
+add_executable(solution230 230.cpp)
+
+project(solution322)
+add_executable(solution322 322.cpp)
+
+project(solution416)
+add_executable(solution416 416.cpp)
+
+project(solution698)
+add_executable(solution698 698.cpp)
+
+
+project(solution1135)
+add_executable(solution1135 1135.cpp)
