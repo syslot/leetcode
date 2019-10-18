@@ -160,6 +160,9 @@ add_executable(solution66 66.cpp)
 project(solution75)
 add_executable(solution75 75.cpp)
 
+project(solution93)
+add_executable(solution93 93.cpp)
+
 project(solution124)
 add_executable(solution124 124.cpp)
 
