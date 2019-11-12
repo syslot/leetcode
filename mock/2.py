@@ -20,4 +20,3 @@ class Solution:
 
 s = Solution();
 print(s.combinationSum3(3,7))
-        

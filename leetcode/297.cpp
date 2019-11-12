@@ -1,46 +1,4 @@
-#include <string>
-#include <iostream>
-#include <vector>
-#include <map>
-#include <iterator>
-#include <cstdlib>
-#include <cstring>
-#include <set>
-#include <cmath>
-#include <limits>
-#include <cfloat>
-
-#include <stack>
-#include <queue>
-#include <utility>
-#include <functional>
-#include <tuple>
-#include <algorithm>
-#include <stdexcept>
-#include <numeric>
-#include <iomanip>
-
-
-using namespace std;
-
-
-struct ListNode {
-	int val;
-	struct ListNode *next;
-	ListNode(int x) :
-			val(x), next(NULL) {
-	}
-};
-
-
-struct TreeNode {
-	int val;
-	struct TreeNode *left;
-	struct TreeNode *right;
-	TreeNode(int x) :
-			val(x), left(NULL), right(NULL) {
-	}
-};
+#include "../common.h"
 
 class Codec {
 public:
@@ -63,7 +21,7 @@ public:
             if(root->right)
                 nn++;
         }
-
+        
         while(nn){
             auto cur = q.front();
             q.pop();
@@ -81,7 +39,7 @@ public:
             if(cur->right)
                 nn++;
         }
-
+        
 
         return "[" + str + "]";
     }
@@ -105,7 +63,7 @@ public:
             i++;
         }
         vs.push_back(data.substr(b_p, i-b_p));
-
+        
         auto root= new TreeNode(stoi(vs[0]));
         p.push_back(root);
         auto cur = vs.begin()+1;
@@ -155,33 +113,37 @@ public:
     }
 };
 
-void printT(TreeNode* p, int indent=0)
-{
-    if(p != NULL) {
-        if(p->left) printT(p->left, indent+4);
-        if(p->right) printT(p->right, indent+4);
-        if (indent) {
-            std::cout << std::setw(indent) << ' ';
-        }
-        cout<< p->val<<endl;
-    }
+
+
+void dfs(TreeNode *root){
+    if(root==nullptr)
+        return;
+    cout << root->val <<endl;
+    if(root->left)
+        dfs(root->left);
+    if(root->right)
+        dfs(root->right);
 }
 
-ListNode * GenList(vector<int> array){
+int main(){
 
-    ListNode * head = new ListNode(0), *cur = head;
-    for(auto x:array){
-        cur->next = new ListNode(x);
-        cur = cur->next;
-    }
+    TreeNode  *root = new TreeNode(1);
+    root->left = new TreeNode(2);
+    root->right = new TreeNode(3);
+    root->right->left = new TreeNode(4);
+    root->right->right = new TreeNode(5);
+    root->right->left->right = new TreeNode(6);
+    root->right->right->right = new TreeNode(7);
 
-    cur = head->next;
-    delete head;
-    return cur;
-}
+    Codec s;
 
-TreeNode * BuildTree(string array){
 
-    Codec c;
-    return c.deserialize(array);
+    auto str = s.serialize(nullptr);
+    cout << str <<endl;
+
+    str = "[]";
+    auto root1 = s.deserialize(str);
+
+    dfs(root1);
+
 }

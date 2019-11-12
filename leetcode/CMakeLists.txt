@@ -160,6 +160,15 @@ add_executable(solution66 66.cpp)
 project(solution75)
 add_executable(solution75 75.cpp)
 
+project(solution82)
+add_executable(solution82 82.cpp)
+
+project(solution83)
+add_executable(solution83 83.cpp)
+
+project(solution84)
+add_executable(solution84 84.cpp)
+
 project(solution93)
 add_executable(solution93 93.cpp)
 
@@ -171,6 +180,9 @@ add_executable(solution138 138.cpp)
 
 project(solution142)
 add_executable(solution142 142.cpp)
+
+project(solution143)
+add_executable(solution143 143.cpp)
 
 project(solution146)
 add_executable(solution146 146.cpp)
@@ -190,11 +202,20 @@ add_executable(solution179 179.cpp)
 project(solution200)
 add_executable(solution200 200.cpp)
 
+project(solution221)
+add_executable(solution221 221.cpp)
+
 project(solution215)
 add_executable(solution215 215.cpp)
 
 project(solution230)
 add_executable(solution230 230.cpp)
+
+project(solution297)
+add_executable(solution297 297.cpp)
+
+project(solution316)
+add_executable(solution316 316.cpp)
 
 project(solution322)
 add_executable(solution322 322.cpp)
@@ -208,3 +229,10 @@ add_executable(solution698 698.cpp)
 
 project(solution1135)
 add_executable(solution1135 1135.cpp)
+
+project(solution5231)
+add_executable(solution5231 5231.cpp)
+
+
+project(solutionhw3)
+add_executable(solutionhw3 hw3.cpp)
